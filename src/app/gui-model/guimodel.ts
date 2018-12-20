@@ -1,6 +1,6 @@
 export class GuiModel {
 
-    /* HINWEIS: Texte sind in der Datei ../example-translation-service.ts definiert.
+    /* HINWEIS: Texte sind in der Datei ../example-translation-service.ts definiert. TEST
     Erscheinen Texte in {}, so kann die Übersetzung in example-translation-service.ts definiert werden
     */
 
@@ -343,7 +343,8 @@ export class GuiModel {
                             "search": true,
                             "url": "/friend/:friendKey/activity",
                             "page": "friendsactivitypage",
-                        },
+                        }
+                    ]
                 },
                 {
                 	"id": "activityfriendspage",
@@ -379,6 +380,7 @@ export class GuiModel {
 								"form": "FriendForm" 
 							}
                         },
+                    ]
                 },
                 {
                     "id": "locationspage",
